@@ -204,6 +204,8 @@ names(censo_pnud_pe_sel)
 DocentesAlunos <- censo_pnud_pe_sel$n_matriculas/censo_pnud_pe_sel$n_docentes
 
 
+
+
 # Estatistica Descritiva de Docentes por alunos:
 
 DocentesAlunos
@@ -239,6 +241,8 @@ censo_pnud_pe_sel_docentesalunos["177", ]
 cor(censo_pnud_pe_sel_docentesalunos$DocentesAlunos, censo_pnud_pe_sel_docentesalunos$IDHM)
 
 cor.test(censo_pnud_pe_sel_docentesalunos$DocentesAlunos, censo_pnud_pe_sel_docentesalunos$IDHM)
+
+#De acordo com os dados, a correlação é "-0,47", isto é, negativa, o que indica que não há correlação entre o nº de discentes por aluno e o IDH dos municípios.
 
 
 ####Questao 3 ####
